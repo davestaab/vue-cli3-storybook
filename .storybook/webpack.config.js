@@ -5,7 +5,7 @@ module.exports = (baseConfig, env, defaultConfig) => {
   defaultConfig.plugins.push(new VueLoaderPlugin());
 
   defaultConfig.resolve.extensions.push("vue$", ".vue/dist/vue.esm.js");
-  defaultConfig.resolve.extensions = ['.js', '.json', '.vue', '.jsx'];
+  defaultConfig.resolve.extensions = [".js", ".json", ".vue", ".jsx"];
 
   return defaultConfig;
 };
