@@ -2,7 +2,7 @@
 
 This repo is a minimal setup for a vue cli3 project to use Storybook. 
 
-Updated to work with latest @vue/cli-rc.1
+Updated to work with latest @vue/cli 3.0.0-rc.1
 
 # To run this repo directly
 
@@ -68,7 +68,7 @@ To setup from scratch take the following steps
 
 Currently working with the following dependencies.
 
-* vue-cli 3.0.0-rc.1
+* @vue/cli 3.0.0-rc.1
 * @storybook/vue 3.4.7
 * babel-core 7.0.0-bridge.0
 * vue-template-compiler 2.5.16
